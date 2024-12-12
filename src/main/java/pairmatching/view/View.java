@@ -18,4 +18,12 @@ public class View {
         outputView.printNewLine();
         outputView.printMessage(Output.NEW_LINE);
     }
+
+    public void outputFunctions() {
+        outputView.printMessage(Output.FUNCTION_MESSAGE);
+    }
+
+    public String inputFunction() {
+        return inputView.userInput();
+    }
 }
