@@ -35,14 +35,6 @@ public class PairmatchingController {
             }
         }
 
-//
-//        //1. 페어매칭
-//        outputCourseAndMission();
-//        inputMatchAgainFromUserInput();
-//        inputMatchDataFromUserInput();
-//        pairMatchingFromMatchData();
-//        outputMatchingResult();
-//
 //        //2. 페어조회
 //        outputCourseAndMission();
 //        inputMatchDataFromUserInput();
@@ -72,5 +64,13 @@ public class PairmatchingController {
     }
 
     private void pairmatching() {
+        view.outputCourseAndMission();
+        String matchData = view.inputMatchDataFromUserInput(); //다른 객체를 한번에 입력
+
+        view.inputMatchAgainFromUserInput();
+
+        pairMatchingFromMatchData();
+        outputMatchingResult();
     }
+
 }

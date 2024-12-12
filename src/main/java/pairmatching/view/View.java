@@ -9,21 +9,20 @@ public class View {
         this.outputView = outputView;
     }
 
-    public String inputText() {
-        outputView.printMessage(Output.NEW_LINE);
-        return inputView.userInput();
-    }
-
-    public void outputText() {
-        outputView.printNewLine();
-        outputView.printMessage(Output.NEW_LINE);
-    }
-
     public void outputFunctions() {
         outputView.printMessage(Output.FUNCTION_MESSAGE);
     }
 
     public String inputFunction() {
         return inputView.userInput();
+    }
+
+    public void outputCourseAndMission() {
+        outputView.printMessage(Output.COURSE_MISSION_MESSAGE);
+    }
+
+    public String inputMatchDataFromUserInput() {
+        outputView.printMessage(Output.INPUT_COURSE_LEVEL_MISSION);
+        inputView.userInput();
     }
 }
