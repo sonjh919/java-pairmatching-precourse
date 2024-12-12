@@ -10,6 +10,26 @@ public class PairmatchingController {
     }
 
     public void start(){
+//        setCrews();
+//        outputFunctions();
+//
+//        //1. 페어매칭
+//        outputCourseAndMission();
+//        inputMatchAgainFromUserInput();
+//        inputMatchDataFromUserInput();
+//        pairMatchingFromMatchData();
+//        outputMatchingResult();
+//
+//        //2. 페어조회
+//        outputCourseAndMission();
+//        inputMatchDataFromUserInput();
+//        outputMatchingResult();
+//
+//        //3. 페어 초기화
+//        clearMatchingResult();
+//
+//        //Q. 종료
+//        //return
     }
 
 }
