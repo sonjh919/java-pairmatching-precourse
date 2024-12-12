@@ -1,5 +1,6 @@
 package pairmatching.controller;
 
+import pairmatching.domain.Crews;
 import pairmatching.view.View;
 
 public class PairmatchingController {
@@ -10,7 +11,7 @@ public class PairmatchingController {
     }
 
     public void start(){
-//        setCrews();
+        Crews crews = setCrews();
 //        outputFunctions();
 //
 //        //1. 페어매칭
@@ -30,6 +31,10 @@ public class PairmatchingController {
 //
 //        //Q. 종료
 //        //return
+    }
+
+    private Crews setCrews() {
+        return Crews.create();
     }
 
 }

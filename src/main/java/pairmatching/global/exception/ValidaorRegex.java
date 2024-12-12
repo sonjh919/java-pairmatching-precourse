@@ -49,9 +49,9 @@ public class ValidaorRegex {
         }
     }
 
-    private static List<String> getListfrom(final String input, final String delimiter) {
-        return List.of(input.split(delimiter));
-    }
+//    private static List<String> getListfrom(final String input, final String delimiter) {
+//        return List.of(input.split(delimiter));
+//    }
 
     //////////////////////////////////////////////////////////////////////
     // 계산기 : matches() 이후 매칭가능
